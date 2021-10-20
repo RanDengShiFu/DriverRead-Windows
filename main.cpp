@@ -67,9 +67,9 @@ int main(int argc, char* argv[])
         ImVec4 Color1(100, 100, 50, 50);
         Dwm_DrawLine(100, 100, 200, 200, Color0, 5);
         Dwm_DrawLine(200, 100, 300, 500, Color1, 5);
-        Dwm_DrawTextStr(50, 50, Color0, true, "%s", "龟哥");
+        Dwm_DrawTextStr(50, 50, Color0, true, "%s", "test");
         Dwm_DrawText(150, 150, Color1, true, "TEST AAAAAAAA");
-        Dwm_DrawTextSize(10.0f, ImVec2(400, 100), ImVec4(0, 1, 0, 1), "测试");
+        Dwm_DrawTextSize(10.0f, ImVec2(400, 100), ImVec4(0, 1, 0, 1), "哈哈哈");
         Dwm_UpDataDraw();
     }
 
